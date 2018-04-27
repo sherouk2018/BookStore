@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/shelf_id_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"/>
+    <EditText
+        android:id="@+id/shelf_id_txt"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/shelf_id_hint" />
+    <TextView
+        android:id="@+id/vol_id_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"/>
+    <EditText
+        android:id="@+id/vol_id_txt"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/vol_id_hint" />
+    <TextView
+        android:id="@+id/books_id_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"/>
+    <EditText
+        android:id="@+id/books_id_txt"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/books_id_hint" />
+</LinearLayout>

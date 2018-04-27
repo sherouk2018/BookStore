@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+<!--    &lt;!&ndash;  Search bar &ndash;&gt;
+    <LinearLayout
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/search_text"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:hint="Search string"
+            android:paddingLeft="10dp">
+        </EditText>
+        <Spinner
+            android:id="@+id/search_choices"
+            android:layout_width="80dp"
+            android:layout_height="50dp" />
+        <Button
+            android:id="@+id/do_filter"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:text="filter"
+            android:textSize="8sp" />
+    </LinearLayout>
+    &lt;!&ndash; books list &ndash;&gt;
+    <ListView
+        android:id="@+id/books_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>-->
+
+</LinearLayout>
